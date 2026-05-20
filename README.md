@@ -84,7 +84,6 @@ claude-chinese/
 GPT 和 Gemini 原生不暴露 Anthropic 协议，所以需要中间网关做协议翻译。三种选择：
 
 - **第三方中转**（最简单）：`https://api.meding.site` 这类已经实测可用
-- **OpenRouter** 这种付费托管：直接拿 key 配上
 - **自建 LiteLLM**：见 [references/providers.md §8](references/providers.md)，docker-compose 一条命令
 
 `scripts/list_models.{sh,ps1}` 会自动探针 `/v1/models` 端点，按 gpt/gemini/deepseek/claude 分组，**生成可直接粘贴的 `inferenceModels` JSON 片段**。
