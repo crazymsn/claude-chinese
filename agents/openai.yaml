@@ -1,0 +1,7 @@
+# agents/openai.yaml — 本文件名是历史遗留（原 skill 模板的命名），与 OpenAI 没有任何关系。
+# 内容是本 skill 的 interface 元数据：display_name / short_description / default_prompt。
+# 如果你 fork 这个 skill，可以重命名为 interface.yaml；但保持原名也无副作用。
+interface:
+  display_name: "Claude Desktop 3P 改包（Mac / Win × GPT / Gemini / DeepSeek）"
+  short_description: "在 macOS 或 Windows 上把 Claude Desktop 改造成可用 GPT / Gemini / DeepSeek 的 fork"
+  default_prompt: "使用 $claude-desktop-deepseek-3p 来在 Mac 或 Win 上 fork Claude Desktop，配通 https://api.meding.site 这个 Anthropic-compatible 中转，让 GPT / Gemini / DeepSeek 模型都能显示并跑通，并完成汉化、禁更新、重新签名、启动验证。"

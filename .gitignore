@@ -1,0 +1,30 @@
+# macOS metadata
+.DS_Store
+._*
+
+# Claude Code local config (skill 调用授权等，机器相关，不分发)
+.claude/
+
+# Patch 备份（永远不要进 .app 或 install 目录里面，也不要进版本控制）
+*.before-*
+*.bak
+*.backup
+*.orig
+
+# 编辑器 / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Node（如果有人在 skill 目录里跑 npm install）
+node_modules/
+package-lock.json
+npm-debug.log*
+
+# Python（apply_patches.sh 用到的 here-doc 不产生 .pyc，但加上保险）
+__pycache__/
+*.pyc
+
+# 临时验证产物
+/tmp/claude-fork-*
