@@ -1,3 +1,7 @@
+欢迎关注B站及YouTube频道：深度云创科技，感兴趣的朋友欢迎加入新时代智能体交流社群
+
+客服微信：16773345788
+
 # claude-chinese
 
 > 一个 [Claude Skill](https://docs.anthropic.com/en/docs/build-with-claude/claude-code/skills)，让 Claude Desktop 在 **macOS** 和 **Windows** 上直接调用 **GPT / Gemini / DeepSeek** 等任何 Anthropic-compatible 3P 网关模型，附带中文汉化、禁更新、签名修复、模型自动发现。
